@@ -9,18 +9,6 @@ body {
   animation: changePollock 10s infinite;
 }
 
-@keyframes changePollock {
-  0%, 100% {
-    background-image: url('https://th.bing.com/th/id/R.c6c1b1385a5f485d7ec4538abac1ec6a?rik=QfHPnn8LCmwILA&riu=http%3a%2f%2fspie.org%2fimages%2fgraphics%2fnewsroom%2fimported-2009%2f1643%2f1643_fig1.jpg&ehk=NzzqVs0BkjJcr1tnHT7mdbbBIs%2baTMGx5fLU9gvEENE%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your own Pollock image URL */
-  }
-  10% {
-    background-image: url('https://www.gannett-cdn.com/-mm-/1431032a906b2741a431eb45527fc4583785bf38/c=0-292-5616-3451/local/-/media/IowaCity/2015/01/12/B9315804495Z.1_20150112165150_000_G2P9KN8S8.1-0.jpg?width=3200&height=1800&fit=crop&format=pjpg&auto=webp'); /* Replace with your own Pollock image URL */
-  }
-  20% {
-    background-image: url('https://th.bing.com/th/id/R.523913c60c62f2555c7e41e85abbf249?rik=Eb%2bqDO8ebjyx3w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-v-CpnvA9MaI%2fTaYD5t3A0jI%2fAAAAAAAAAq0%2fhJJjbNtskUo%2fs1600%2fJackson%2bPollock%2b-%2bThe%2bFlame.jpg&ehk=5pMi0v5t%2feAFjTEYVSURFa95frK00I9CvsxFsLDagXM%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your own Pollock image URL */
-  }
-  /* Add additional keyframes for each Pollock image */
-}
 
 
 h1 {
