@@ -41,11 +41,11 @@ p {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 200px;
+  width: 50px;
 }
 
 .logo img {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 
