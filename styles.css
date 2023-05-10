@@ -1,25 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: lightgray;
-    margin: 0;
-    padding: 0;
-    background-image: url "https://www.bing.com/images/search?view=detailV2&ccid=K3SNXSra&id=ADE3B4F6433122575339091D236C4F86605130EC&thid=OIP.K3SNXSradmg6GBNnTdigAwHaF3&mediaurl=https%3a%2f%2fwww.christies.com%2fimg%2fLotImages%2f2020%2fNYR%2f2020_NYR_19872_0005_000(jackson_pollock_red_composition081504).jpg%3fmaxwidth%3d2085%26maxheight%3d1950&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.2b748d5d2ada76683a1813674dd8a003%3frik%3d7DBRYIZPbCMdCQ%26pid%3dImgRaw%26r%3d0&exph=1651&expw=2085&q=pollock&simid=607989201482550651&FORM=IRPRST&ck=542F84F239AA7FD30284B0AA16320047&selectedIndex=0&ajaxhist=0&ajaxserp=0";
-    background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=K3SNXSra&id=ADE3B4F6433122575339091D236C4F86605130EC&thid=OIP.K3SNXSradmg6GBNnTdigAwHaF3&mediaurl=https%3a%2f%2fwww.christies.com%2fimg%2fLotImages%2f2020%2fNYR%2f2020_NYR_19872_0005_000(jackson_pollock_red_composition081504).jpg%3fmaxwidth%3d2085%26maxheight%3d1950&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.2b748d5d2ada76683a1813674dd8a003%3frik%3d7DBRYIZPbCMdCQ%26pid%3dImgRaw%26r%3d0&exph=1651&expw=2085&q=pollock&simid=607989201482550651&FORM=IRPRST&ck=542F84F239AA7FD30284B0AA16320047&selectedIndex=0&ajaxhist=0&ajaxserp=0');
+  background-size: cover;
+}
 
-  }
-  
-  h1 {
-    background-color: darkblue;
-    color: white;
-    padding: 20px;
-    margin: 0;
-  }
-  
-  p {
-    padding: 20px;
-    margin: 0;
-  }
-  
+h1 {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+}
+
 .logo {
   transition: all 0.5s;
 }
