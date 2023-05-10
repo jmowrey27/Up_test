@@ -42,17 +42,19 @@ p {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 50px;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .logo img {
-  width: 40%;
+  width: 100%;
   height: auto;
 }
 
 .logo:hover img {
   content: url('https://img.favpng.com/7/15/0/culture-china-learning-english-logos-png-favpng-TM2eW23LGcUj2XRLpyaMDd6B3.jpg');
 }
+
 
 
 .carousel {
