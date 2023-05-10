@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -60,7 +59,9 @@ p {
   position: relative;
   height: 400px;
   overflow: hidden;
+  background-color: black;
 }
+
 
 .carousel img {
   position: absolute;
