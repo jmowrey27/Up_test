@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>POLLOCK PROJECT</title>
+  <meta name="description" content="The Pollock Project — 2023">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pollock_project.css">
+</head>
+<body>
+  <div class="logo-container">
+    <a href="mailto:info@thepollockproject.com" class="logo">
+      <img src="images/pollock_project_logo_main.png" 
+        alt="Pollock Project Logo"
+        onmouseover="this.src='images/pollock_project_logo_main_pin.png'" 
+        onmouseout="this.src='images/pollock_project_logo_main.png'">
+    </a>
+  </div>
+
+  <script src="background-carousel.js"></script>
+</body>
+</html>
