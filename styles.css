@@ -9,9 +9,7 @@ body {
   animation: changePollock 10s infinite;
 }
 
-.carousel {
-  display: none;
-}
+
 
 @keyframes changePollock {
   0% {
@@ -57,6 +55,7 @@ p {
 
 
 .carousel {
+  display: none;
   position: relative;
   height: 400px;
   overflow: hidden;
