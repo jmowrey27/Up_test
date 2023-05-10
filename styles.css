@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('https://th.bing.com/th/id/R.1cadeb2a096b7b13b476a11f22232c88?rik=uVrYhi9mByjL8w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-tXkGLOi9uXU%2fUvVNXmVnGLI%2fAAAAAAAABPY%2f9RfYkERSTJc%2fs1600%2fShe%26%2339%3bs%2bBeautiful.JPG&ehk=mRiOaaEm9a59C%2b3jDqSAnsHSiTAfZHNN6XNWEeTAra8%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your own Pollock image URL */
+  /*background-image: url('https://th.bing.com/th/id/R.1cadeb2a096b7b13b476a11f22232c88?rik=uVrYhi9mByjL8w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-tXkGLOi9uXU%2fUvVNXmVnGLI%2fAAAAAAAABPY%2f9RfYkERSTJc%2fs1600%2fShe%26%2339%3bs%2bBeautiful.JPG&ehk=mRiOaaEm9a59C%2b3jDqSAnsHSiTAfZHNN6XNWEeTAra8%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your own Pollock image URL */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
