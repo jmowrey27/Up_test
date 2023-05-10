@@ -19,10 +19,5 @@ p {
 }
 
 .logo {
-
   transition: all 0.5s;
-}
-
-.logo:hover {
-  content: url('https://img.favpng.com/7/15/0/culture-china-learning-english-logos-png-favpng-TM2eW23LGcUj2XRLpyaMDd6B3.jpg');
 }
