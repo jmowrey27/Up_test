@@ -8,7 +8,21 @@
   <img src="https://www.gannett-cdn.com/-mm-/1431032a906b2741a431eb45527fc4583785bf38/c=0-292-5616-3451/local/-/media/IowaCity/2015/01/12/B9315804495Z.1_20150112165150_000_G2P9KN8S8.1-0.jpg?width=3200&height=1800&fit=crop&format=pjpg&auto=webp" alt="Pollock 2">
   <img src="https://th.bing.com/th/id/R.523913c60c62f2555c7e41e85abbf249?rik=Eb%2bqDO8ebjyx3w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-v-CpnvA9MaI%2fTaYD5t3A0jI%2fAAAAAAAAAq0%2fhJJjbNtskUo%2fs1600%2fJackson%2bPollock%2b-%2bThe%2bFlame.jpg&ehk=5pMi0v5t%2feAFjTEYVSURFa95frK00I9CvsxFsLDagXM%3d&risl=&pid=ImgRaw&r=0" alt="Pollock 3">
 </div>
-  
+<script>
+const carousel = document.querySelector('.carousel');
+const images = carousel.querySelectorAll('img');
+const interval = 5000; // Change image every 5 seconds
+
+let index = 0;
+setInterval(() => {
+  images[index].classList.remove('active');
+  index++;
+  if (index >= images.length) {
+    index = 0;
+  }
+  images[index].classList.add('active');
+}, interval);
+  </script>
   <title>My Simple Webpage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
