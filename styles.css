@@ -39,13 +39,14 @@ p {
   margin: 0;
 }
 .logo {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .logo img {
-  width: 200px;
+  width: 50%;
   height: auto;
 }
 
