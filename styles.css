@@ -42,6 +42,7 @@ p {
   align-items: center;
   height: auto;
   width: 50px;
+  margin: auto;
 }
 
 .logo img {
