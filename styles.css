@@ -17,9 +17,13 @@ p {
   padding: 20px;
   margin: 0;
 }
-
 .logo {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+.logo img {
+  width: 50px; /* Adjust as needed */
   transition: all 0.5s;
-  height: 40px;
-  width: cover;
 }
