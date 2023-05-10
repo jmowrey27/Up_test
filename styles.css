@@ -1,13 +1,16 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   animation: changePollock 10s infinite;
-  position: relative;
 }
+
 
 
 
@@ -38,13 +41,10 @@ p {
   margin: 0;
 }
 .logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   height: auto;
   width: 200px;
 }
+
 .logo img {
   width: 100%;
   height: auto;
