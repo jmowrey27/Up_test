@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   animation: changePollock 10s infinite;
+  position: relative;
 }
 
 
@@ -37,14 +38,13 @@ p {
   margin: 0;
 }
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: auto;
   width: 200px;
-  margin: 0 auto;
 }
-
 .logo img {
   width: 100%;
   height: auto;
