@@ -11,17 +11,6 @@ body {
 
 
 
-@keyframes changePollock {
-  0% {
-    background-image: url('https://th.bing.com/th/id/R.c6c1b1385a5f485d7ec4538abac1ec6a?rik=QfHPnn8LCmwILA&riu=http%3a%2f%2fspie.org%2fimages%2fgraphics%2fnewsroom%2fimported-2009%2f1643%2f1643_fig1.jpg&ehk=NzzqVs0BkjJcr1tnHT7mdbbBIs%2baTMGx5fLU9gvEENE%3d&risl=&pid=ImgRaw&r=0');
-  }
-  33% {
-    background-image: url('https://www.gannett-cdn.com/-mm-/1431032a906b2741a431eb45527fc4583785bf38/c=0-292-5616-3451/local/-/media/IowaCity/2015/01/12/B9315804495Z.1_20150112165150_000_G2P9KN8S8.1-0.jpg?width=3200&height=1800&fit=crop&format=pjpg&auto=webp');
-  }
-  66% {
-    background-image: url('https://th.bing.com/th/id/R.523913c60c62f2555c7e41e85abbf249?rik=Eb%2bqDO8ebjyx3w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-v-CpnvA9MaI%2fTaYD5t3A0jI%2fAAAAAAAAAq0%2fhJJjbNtskUo%2fs1600%2fJackson%2bPollock%2b-%2bThe%2bFlame.jpg&ehk=5pMi0v5t%2feAFjTEYVSURFa95frK00I9CvsxFsLDagXM%3d&risl=&pid=ImgRaw&r=0');
-  }
-}
 
 
 
@@ -36,54 +25,4 @@ p {
   padding: 20px;
   margin: 0;
 }
-.logo-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.logo {
-  height: auto;
-  width: 200px;
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
-}
-
-.logo:hover img {
-  content: url('https://img.favpng.com/7/15/0/culture-china-learning-english-logos-png-favpng-TM2eW23LGcUj2XRLpyaMDd6B3.jpg');
-}
-
-
-
-.carousel {
-  display: none;
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-  background-color: black;
-}
-
-
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel img.active {
-  opacity: 1;
-  z-index: 1;
-}
